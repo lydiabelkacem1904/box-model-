@@ -1,0 +1,77 @@
+body {
+    background: #000; /* Fond noir Star Wars */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.father {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 20px;
+    position: relative;
+    border: 3px solid #ffcc00; /* Jaune vif */
+}
+
+.div1, .div2, .div3, .div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    border: solid 3px #ff0000;
+    position: relative;
+    color: #fff;
+}
+
+.div1 {
+    background-color: #1a1a1a;
+    padding: 20px;
+    width: 90%;
+    height: 90%;
+}
+
+.div2 {
+    background: #333;
+    padding: 20px;
+    width: 85%;
+    height: 85%;
+}
+
+.div3 {
+    background: #4d0000;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+}
+
+.div4 {
+    background: #000;
+    padding: 20px;
+    width: 70%;
+    height: 70%;
+    flex-direction: column;
+    display: flex;
+}
+
+.label {
+    position: absolute;
+    top: 5%;
+    font-size: 16px;
+    color: #ffcc00;
+}
+
+.force-quote {
+    font-size: 24px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px #ff0000;
+    margin-top: 10px;
+}
